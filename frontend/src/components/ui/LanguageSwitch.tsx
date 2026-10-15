@@ -1,3 +1,4 @@
+//Modified by HDKP
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import LanguageIcon from '@/components/icons/LanguageIcon';
@@ -10,6 +11,7 @@ const LanguageSwitch: React.FC = () => {
   // Available languages
   const availableLanguages = [
     { code: 'en', label: 'English' },
+	{ code: 'vi', label: 'Việt Nam' },//dinh
     { code: 'zh', label: '中文' },
     { code: 'fr', label: 'Français' },
     { code: 'tr', label: 'Türkçe' }
